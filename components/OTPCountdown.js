@@ -42,7 +42,7 @@ function OTPCountdown({ onVerificationSuccess, isRouting }) {
     }
 
     return () => clearTimeout(timer);
-  }, [minutes, seconds, isRouting,onVerificationSuccess]);
+  }, [minutes, seconds, isRouting]);
 
   const handleResendOTP = () => {
     // Resend OTP logic here
