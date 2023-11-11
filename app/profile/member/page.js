@@ -12,7 +12,8 @@ const MemberPage = () => {
 
 
     const handleSubmit = () => {
-    const url = "http://localhost:3030/api/members/weekly";
+    //const url = "http://localhost:3030/api/members/weekly";
+    const url = "https://chama-backend.onrender.com/api/members/weekly";
     const headers = new Headers({
       "Content-Type": "application/json",
       "Authorization": ` Bearer ${user?.accessToken}`, // Replace with your actual access token
