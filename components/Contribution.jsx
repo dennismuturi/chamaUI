@@ -1,4 +1,4 @@
-  "use client"
+
   const Contribution =  async () => {
  
     const res = await fetch("https://654cc20f77200d6ba8595c1b.mockapi.io/products",{

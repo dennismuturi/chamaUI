@@ -78,7 +78,7 @@ export default function Login() {
                 Login
               </Button>
               <p className="mt-2 text-center text-gray-700">
-                Don't have an account?{" "}
+                Dont have an account
                 <span className="text-blue-600 hover:underline">Sign up</span>
               </p>
             </div>
